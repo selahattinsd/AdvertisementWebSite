@@ -1,0 +1,11 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-action="Gorselyukle" enctype="multipart/form-data">
+    <input type="file" name="image" placeholder="Küçük foto" accept="image/*" />
+    <button type="submit"> Ekle </button>
+</form>
